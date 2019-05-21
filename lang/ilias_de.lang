@@ -1,0 +1,16 @@
+<!--
+University of Giessen Camtasia Editor-Block Plugin for ILIAS
+
+@author Martin Gorgas <martin.gorgas@hrz.uni-giessen.de>
+-->
+cmd_insert#:#E-Lecture einfügen
+<!-- -->
+EDIT::SETTINGS::TITLE#:#Einstellungen bearbeiten
+EDIT::SETTINGS::WIDTH#:#Video-Breite
+EDIT::SETTINGS::HEIGHT#:#Video-Höhe
+<!-- -->
+TAB::EDIT::OBJECT#:#E-Lecture-Auswahl
+TAB::EDIT::SETTINGS#:#Fenstergröße
+<!-- -->
+NOPE#:#Es existiert keine E-Lecture mit Referenz-ID %s oder es wurde keine Startdatei gesetzt.
+MEDIA#:#E-Lecture
