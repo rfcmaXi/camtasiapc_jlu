@@ -56,10 +56,11 @@ class ilCamtasiaPCPluginGUI extends ilPageComponentPluginGUI {
       // Add link and size via variables or existing css
       $tpl->setVariable('LINK', $player);
       if (!$width || !$height)
-        $tpl->addCss($obj->getEmbedCSS());
+        //$tpl->addCss($obj->getEmbedCSS());
+		$GLOBALS['tpl']->addCss($obj->getEmbedCSS());
       else
         $tpl->setVariable('CSS_SIZE', "width: {$width}px; height: {$height}px;");
-      $tpl->fillCssFiles(true);
+      // $this->tpl->fillCssFiles(true); method is private
 
       // Return template HTML
       return $tpl->get();
