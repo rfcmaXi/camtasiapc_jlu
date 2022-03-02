@@ -12,7 +12,7 @@ $version = '1.0.1';
 
 // Supported ILIAS versions
 $ilias_min_version = '5.0.0';
-$ilias_max_version = '5.4.99';
+$ilias_max_version = '7.999';
 
 // Author & Contact information
 $responsible      = 'Martin Gorgas';
