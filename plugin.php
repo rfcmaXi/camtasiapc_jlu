@@ -8,11 +8,11 @@
 
 // Unique plugin id and plugin version
 $id      = 'xcampc';
-$version = '1.0.1';
+$version = '1.1.0';
 
 // Supported ILIAS versions
-$ilias_min_version = '5.0.0';
-$ilias_max_version = '7.999';
+$ilias_min_version = '8.0';
+$ilias_max_version = '8.999';
 
 // Author & Contact information
 $responsible      = 'Martin Gorgas';

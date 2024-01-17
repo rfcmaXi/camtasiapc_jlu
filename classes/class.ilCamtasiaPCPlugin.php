@@ -6,7 +6,6 @@
  **/
 require_once('Services/COPage/classes/class.ilPageComponentPlugin.php');
 
-
 /**
  * Class: ilCamtasiaPCPlugin
  *  This class registers the Camtasia PageComponent plugin with ILIAS.
@@ -20,21 +19,20 @@ class ilCamtasiaPCPlugin extends ilPageComponentPlugin {
    *
    * @return <String> Name of plugin, matching its directory-name
    */
-	function getPluginName() {
+	function getPluginName():string {
 		return 'CamtasiaPC';
 	}
 
-
 	/**
 	 * Function: isValidParentType($parentType)
-   *  This is called to check for which object-types this PageComponent
+	 *  This is called to check for which object-types this PageComponent
 	 *  is allowed. We allow all types.
 	 *
 	 * @param $parentType <String> Object type to check PageComponent permission for
 	 *
 	 * @return <Boolean> True if PC is allowed for given type
 	 */
-	function isValidParentType($parentType) {
+	function isValidParentType(string $parentType): bool {
 		return true;
 	}
 }
